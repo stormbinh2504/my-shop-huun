@@ -1,0 +1,127 @@
+a {
+  text-decoration: none;
+}
+
+.box-footer
+{
+    background-color: #111111;
+    padding: 20px 0;
+}
+
+.footer-info h3
+{
+    border-bottom: 1px solid #272727;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2px;
+    line-height: 2;
+}
+.footer-info .lst-info li
+{
+    margin: 10px 0;
+
+}
+
+.footer-info .lst-info li a
+{
+    color: #7e7e7e;
+}
+.footer-info .lst-info li a:hover
+{
+    color:white;
+}
+.footer-right h6
+{
+    margin-top: 40px;
+    color: #7e7e7e;
+    font-size: 16px;    
+    
+}
+.footer-right
+{
+    line-height: 2;
+}
+
+.footer-right .add span:nth-child(1)
+{
+    color: white;
+    font-size: 14px;
+}
+
+.footer-right .add span:nth-child(2)
+{
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+.lst-icon-first li
+{
+    margin: 0 12px;
+}
+
+
+
+.bottom-next
+{
+    display: flex;
+}
+.bottom-next .submit-footer input
+{
+    padding:5px 10px 5px 10px ;
+    background-color: #111111;
+    color: white;
+    border: #111111;
+}
+.bottom-next .input-footer input
+{
+    width: 100%;
+    padding:5px 0px 5px 10px ;
+    background-color: #111111;
+    border: #111111;
+    padding-right: 50%;
+}
+.bottom-next .input-footer
+{
+    position: relative;
+    color:white;
+}
+
+
+.bottom-next .input-footer i
+{
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    color: #ae555e;
+    font-size: 20px;
+}
+
+.bottom-last div
+{
+    margin: 0 5px;
+}
+
+.last-footer
+{
+    background-color:#000000;
+}
+.info-last-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    color: #696969;
+   
+}
+
+.last-footer .info-last-footer span:nth-child(2) a
+{
+    color: #f2727f;
+}
+.last-footer .info-last-footer span:nth-child(4)
+{
+    color: #f2727f;
+}

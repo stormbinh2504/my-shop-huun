@@ -1,0 +1,21 @@
+/* .slick-next{
+    color: red;
+    position: absolute;
+    top: -210px;
+    left: -80px;
+} */
+.slick-next:before{
+    color: #343a40;
+    position: absolute;
+    top: -225px;
+    left: -80px;
+    font-size: 34px;
+}
+
+.slick-prev:before {
+    color: #343a40;
+    position: absolute;
+    top: -225px;
+    right: -1030px;
+    font-size: 34px;
+}

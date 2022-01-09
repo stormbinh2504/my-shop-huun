@@ -1,0 +1,44 @@
+.box-service
+{
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.lst-service
+{
+    padding: 40px 20px;
+    background-color: #dbdee4;
+    margin-bottom: 30px;
+    transform: scale(1);
+}
+.lst-service:hover
+{
+    transform: scale(1.1);
+}
+.lst-service a
+{
+  text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.lst-service a i
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:  #f2727f;
+    font-size: 20px;
+}
+
+.lst-service h4
+{
+    font-size: 14px;
+}

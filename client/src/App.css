@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+.rating span{
+  margin: 0.1rem;
+}
+
+/* main{
+  background-color: aqua;
+} */
+
+.card-item{
+  box-shadow: rgba(44, 47, 49, 0.2) 0px 8px 24px;
+}
+
+.slider-carousel{
+  position: relative;
+}
+
+.hero__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 114rem;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+.hero__left {
+  padding: 0 3rem;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.hero__btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: var(--black);
+  color: var(--primaryColor);
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 1.5rem 4rem;
+  border: 1px solid var(--black);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__btn:focus {
+  outline: none;
+}
+
+.hero__left .hero__btn:hover {
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--black);
+}
+
+.hero__left h1 {
+  margin: 1rem 0;
+}
+
+.hero__left p {
+  margin-bottom: 1rem;
+}
+
+.hero__right {
+  position: relative;
+  text-align: center;
+  float: right;
+}
+
+.hero__right img.banner_03 {
+  width: 70%;
+}
+
+
+figure {
+  cursor: pointer;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure:hover img {
+  opacity: 0;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  pointer-events: none;
+}
+
+
+/* Contact */
+
+
+
+.title-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.title-box h2 {
+    font-size: 50px;
+    color: #222222;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.contact-box{
+	padding: 70px 0px;
+}
+
+.contact-block .form-group .form-control{
+	background: #e6eceb;
+	height: 45px;
+	font-size: 16px;
+	border: 0;
+	color: #222222;
+	padding: 6px 15px;
+}
+
+.contact-block .form-group textarea.form-control{
+	height: 150px;
+	padding-top: 15px;
+}
+
+.submit-button .btn-common{
+	background-color: #63c7bd;
+	height: 45px;
+	line-height: 45px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	padding: 0 15px;
+  border-radius: 5px;
+}
+.submit-button .btn-common:hover{
+	background-color: #dd666c;
+}
+
+.custom-select{
+	height: 45px;
+	font-size: 16px;
+}
